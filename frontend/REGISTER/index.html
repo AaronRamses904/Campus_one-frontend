@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inicio de Sesión | CAMPUS-ONE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <div class="nav-left">
+      <svg class="icono-nav" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+      </svg>
+    </div>
+    <div class="nav-center">CAMPUS-ONE</div>
+    <div class="nav-right">
+      <svg class="icono-nav" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M12 22c1.1 0 2-.9 2-2h-4a2 2 0 002 2zm6-6V11c0-3.07-1.63-5.64-4.5-6.32V4a1.5 1.5 0 10-3 0v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/>
+      </svg>
+      <svg class="icono-nav" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M7 10h10v2H7v-2zm0 4h7v2H7v-2z"/>
+      </svg>
+    </div>
+  </header>
+
+  <!-- Franja blanca con imagen de fondo -->
+  <section class="banner"></section>
+
+  <!-- Formulario -->
+  <section class="login-bottom">
+    <div class="form-box">
+      <h2>¡BIENVENIDO!</h2>
+      <p>Ingresa tus datos para iniciar sesión</p>
+      
+      <form id="form-login">
+        <label for="id_usuario">Usuario (ID Usuario)</label>
+        <input type="text" id="id_usuario" name="id_usuario" required />
+
+        <label for="password">Contraseña*</label>
+        <input type="password" id="password" name="password" required />
+
+        <button type="submit">Iniciar Sesión</button>
+      </form>
+      
+      <p class="registro-pequeño">
+        ¿No tienes cuenta?
+        <a href="./registro.html" class="link-pequeño">Registrarse</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- 👇 Cambiamos a login.js -->
+  <script src="login.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
