@@ -27,7 +27,7 @@ form.addEventListener("submit", async (e) => {
     }
   } catch (error) {
     console.error("Error al conectar con el servidor:", error);
-    alert("⚠️ Error de conexión con el servidor.");
+    alert(" Error de conexión con el servidor.");
   }
 });
 

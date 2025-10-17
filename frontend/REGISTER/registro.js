@@ -12,7 +12,7 @@ form.addEventListener("submit", async (e) => {
     password: document.getElementById("password").value.trim()
   };
 
-  console.log("Datos a enviar:", data); // 🔹 Depuración
+  console.log("Datos a enviar:", data); //  Depuración
 
   try {
     const response = await fetch("https://campus-one-backend-yfi8.onrender.com/registro", {
@@ -30,7 +30,7 @@ form.addEventListener("submit", async (e) => {
     }
   } catch (error) {
     console.error("Error:", error);
-    alert("⚠️ No se pudo conectar con el servidor");
+    alert("No se pudo conectar con el servidor");
   }
 });
 
