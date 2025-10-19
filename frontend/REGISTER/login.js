@@ -11,7 +11,7 @@ form.addEventListener("submit", async (e) => {
   console.log("Datos enviados al login:", data); // Depuración
 
   try {
-    const response = await fetch("https://campus-one-backend-yfi8.onrender.com/server.js", {
+    const response = await fetch("https://campus-one-backend-yfi8.onrender.com/server", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data)
